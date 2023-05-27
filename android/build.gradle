@@ -26,6 +26,8 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-parcelize'
 
 android {
+    namespace 'com.mhz.savegallery.saver_gallery'
+    
     compileSdkVersion 33
 
     compileOptions {
